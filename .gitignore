@@ -1,0 +1,15 @@
+# Maven build output
+**/target/
+**/build/
+
+# Local database and uploaded media
+music-backend/music_db.db
+**/uploads/
+uploads/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+*.log
